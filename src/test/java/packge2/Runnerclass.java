@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features={"src/test/resources/eg1.feature"},
-                 glue="stepdefinition",plugin="json:target/cucumber.json")
+                 glue="stepdefinition",plugin="json:target/jsonreport.json")
                	 //tags={"@smoke"}
                 //tags={"~@smoke"}
                  //tags={"@smoke","@reg"}
